@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const { markAsUntransferable } = require('worker_threads');
 const client = new Discord.Client();
 const config = require('./config.json');
 const secret = require('./secret.json');
